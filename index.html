@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Software Architect Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .bg-gradient {
+            background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .hero-pattern {
+            background-color: #121826;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23203144' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23264e6d'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+    <!-- Hero Section -->
+    <header class="hero-pattern text-white">
+        <div class="container mx-auto px-4 py-16 md:py-28">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="/api/placeholder/400/400" alt="Yair Nevet" class="rounded-full w-64 h-64 mx-auto border-4 border-blue-400 shadow-lg object-cover">
+                </div>
+                <div class="md:w-1/2 md:pl-10">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-2">Yair Nevet</h1>
+                    <h2 class="text-2xl md:text-3xl text-blue-300 mb-4">Senior Software Architect</h2>
+                    <p class="text-lg text-gray-300 mb-6">Specializing in Cloud, Backend, AI, ML, & Cyber Security</p>
+                    <div class="flex space-x-4 mb-6">
+                        <a href="https://github.com/" target="_blank" class="text-white hover:text-blue-300 transition-colors">
+                            <i class="fab fa-github text-2xl"></i>
+                        </a>
+                        <a href="https://medium.com/" target="_blank" class="text-white hover:text-blue-300 transition-colors">
+                            <i class="fab fa-medium text-2xl"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/" target="_blank" class="text-white hover:text-blue-300 transition-colors">
+                            <i class="fab fa-stack-overflow text-2xl"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="text-white hover:text-blue-300 transition-colors">
+                            <i class="fab fa-linkedin text-2xl"></i>
+                        </a>
+                    </div>
+                    <a href="#contact" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg mb-6">A tech enthusiast and people person, shaping software and innovation for over a decade. Thriving on cutting-edge tech, cyber, cloud, big data and AI.</p>
+                <p class="text-lg mb-6">Experienced in working with global teams and leading projects worldwide, including in Dubai and Tel Aviv. Worked in top-secret and global firms, bringing deep expertise in high-stakes environments.</p>
+                <p class="text-lg">Always looking to learn, grow, and do fascinating stuff in my day-to-day.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Technical Skills</h2>
+            <div class="max-w-4xl mx-auto mb-12">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Tech Stack</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Kubernetes</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Node.js</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Go</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">.NET</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">AWS</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">GCP</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Kafka</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">RabbitMQ</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Redis</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Docker</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">JavaScript</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">React</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">TypeScript</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">C#</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">gRPC</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">REST</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">OpenTelemetry</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Prometheus</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Grafana</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Git</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Linux</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">WebSocket</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">PostgreSQL</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">MySQL</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ClickHouse</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Debezium</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Terraform</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">SQS</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Databricks</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Step Functions</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">S3</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Redshift</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Athena</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">DynamoDB</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Java</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">GraphQL</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">AWS ECR</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Microservices</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="text-3xl font-bold text-center mb-12">Areas of Expertise</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Cloud Architecture</h3>
+                    <p>Expert in multi-cloud environments, migrations between AWS and GCP, and building scalable cloud-native solutions.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Backend Systems</h3>
+                    <p>Designing and implementing robust, high-performance backend systems that power mission-critical applications.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">AI & Machine Learning</h3>
+                    <p>Building intelligent systems and implementing machine learning solutions for real-world problems.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Cyber Security</h3>
+                    <p>Developing secure systems with a focus on anonymity, encryption, and protection against cyber threats.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">System Architecture</h3>
+                    <p>Designing scalable and maintainable architectures for complex software systems across multiple domains.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Team Leadership</h3>
+                    <p>Leading global technical teams and managing projects across different time zones and cultures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Key Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-all duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Cloud Migration</h3>
+                        <p class="text-gray-700 mb-4">Led complex cloud migrations between AWS and GCP platforms, ensuring seamless transitions with minimal downtime.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">AWS</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">GCP</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-all duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">DSP for AdTech</h3>
+                        <p class="text-gray-700 mb-4">Architected and developed a demand-side platform for advertising technology that processes billions of requests daily.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Big Data</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Real-time Processing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-all duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Worldwide Tax Withholding System</h3>
+                        <p class="text-gray-700 mb-4">Designed and implemented a global tax withholding system capable of handling tax regulations across multiple jurisdictions.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Financial Systems</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Compliance</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-all duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">AI Chatbot for Sports Betting</h3>
+                        <p class="text-gray-700 mb-4">Created an intelligent chatbot that provides betting tips for sports events using machine learning and predictive analytics.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">AI</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ML</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NLP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-all duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">No-Code/Low-Code Web Scraping System</h3>
+                        <p class="text-gray-700 mb-4">Architected and built a comprehensive no-code/low-code web scraping platform, enabling 24/7 data collection operations with scalable robots.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Kubernetes</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Node.js</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">TypeScript</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Big Data</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition-all duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Big Data Solutions</h3>
+                        <p class="text-gray-700 mb-4">Designed and implemented various big data processing pipelines and analytics platforms using modern cloud technologies.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">AWS</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Redshift</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Kafka</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Databricks</span>
+                        </div>
+                    </div>
+                </div>
